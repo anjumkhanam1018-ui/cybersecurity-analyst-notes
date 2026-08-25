@@ -1,0 +1,17 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Filled-in, potentially sensitive logs (keep templates only)
+daily-logs/*.md
+!daily-logs/template.md
+03-incident-response/cases/
+
+# Local scratch space
+scratch/
+*.tmp
